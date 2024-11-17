@@ -1,0 +1,81 @@
+.container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Typography */
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  
+  /* Search bar styling */
+  .MuiTextField-root {
+    margin-bottom: 20px;
+  }
+  
+  .MuiOutlinedInput-root {
+    border-radius: 20px;
+  }
+
+  .MuiTableContainer-root {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .MuiTableHead-root {
+    background-color: #1976d2;
+  }
+  
+  .MuiTableCell-head {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .MuiTableRow-root:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  /* Sort label styling */
+  .MuiTableSortLabel-root {
+    color: #fff;
+  }
+  
+  .MuiTableSortLabel-root.Mui-active {
+    color: #ffd700; /* Highlight active sort */
+  }
+  
+  /* Action buttons */
+  .MuiIconButton-root {
+    color: #1976d2;
+    transition: color 0.3s ease;
+  }
+  
+  .MuiIconButton-root:hover {
+    color: #d32f2f; /* Red hover effect */
+  }
+  
+  /* Pagination styling */
+  .MuiTablePagination-root {
+    background-color: #f1f1f1;
+    border-top: 1px solid #ddd;
+  }
+  
+  .MuiTablePagination-toolbar {
+    justify-content: center;
+  }
+  
+  .MuiTablePagination-actions {
+    display: flex;
+    align-items: center;
+  }
+  
